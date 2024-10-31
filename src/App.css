@@ -1,0 +1,245 @@
+body {
+	background: rgb(255, 165, 0);
+	background: linear-gradient(
+	  142deg,
+	  rgba(255, 165, 0, 0.41642594537815125) 0%,
+	  rgba(179, 198, 0, 0) 95%
+	);
+}
+.nav-bar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	background-color: transparent;
+	backdrop-filter: blur(3%);
+}
+
+.navbar-title {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+.logoSkole {
+	padding: 16px;
+	height: 100px;
+	width: 100px;
+}
+.lektire {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.lektire-title {
+	margin-bottom: 80px;
+}
+.each-lektira {
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+.lektira-img {
+	border-radius: 14px;
+	margin-right: 5%;
+	width: 30%;
+}
+.text-lektira {
+	width: 500px;
+	margin-top: -10%;
+}
+.text-lektira h2 {
+	font-family: Inter;
+	font-size: 28px;
+	letter-spacing: 1.87px;
+	color: #173f5f;
+}
+.lektira-description {
+	font-family: Inter;
+	letter-spacing: 1.29px;
+	line-height: 30px;
+	width: 500px;
+	color: #767070;
+}
+.razmak {
+	display: flex;
+	width: 80%;
+	height: 2px;
+	background-color: rgb(164, 163, 163);
+	margin-left: auto;
+	margin-right: auto;
+}
+.zadatak-title {
+	text-align: center;
+}
+.song-text {
+	text-align: center;
+	overflow: scroll;
+	width: 500px;
+	height: 60vh;
+}
+.task {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.quiz-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.quiz-questions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.answers-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+.answer-button {
+	background-color: #ea4c89;
+	border-radius: 8px;
+	border-style: none;
+	box-sizing: border-box;
+	color: #ffffff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Haas Grot Text R Web', 'Helvetica Neue', Helvetica,
+		Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	height: 40px;
+	line-height: 20px;
+	list-style: none;
+	margin: 0;
+	outline: none;
+	padding: 10px 16px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	transition: color 100ms;
+	vertical-align: baseline;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+	background-color: #f082ac;
+}
+.hader-image {
+	height: 675px;
+}
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@font-face {
+	font-family: 'Inter';
+	src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+.header-image-container {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.header-title {
+	color: #173f5f;
+	font-family: Inter;
+	font-size: 55px;
+	letter-spacing: -2%;
+	line-height: 145%;
+	width: 600px;
+	text-align: center;
+}
+.header-text {
+	color: #173f5f;
+	font-family: Inter;
+	font-size: 22px;
+	letter-spacing: 4%;
+	line-height: 180%;
+	text-align: center;
+}
+.left-side {
+	margin-left: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.spacingR {
+	margin-right: 57px;
+}
+.spacingL {
+	margin-left: 57px;
+}
+.textToRight {
+	text-align: end;
+}
+.join-quiz-container {
+	background: rgb(255, 165, 0);
+	background: linear-gradient(
+		142deg,
+		rgba(255, 165, 0, 0.2987788865546218) 0%,
+		rgba(255, 86, 78, 0) 55%
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.quiz-orange-text {
+	color: #ed553b;
+	font-size: 14px;
+	font-family: Inter;
+	font-weight: 700;
+}
+.quiz-long-text {
+	width: 627px;
+	color: #173f5f;
+	font-family: Inter;
+	line-height: 32px;
+}
+.quiz-title {
+	width: 600px;
+	color: #173f5f;
+	line-height: 50px;
+	letter-spacing: 3%;
+}
+.quiz-slika {
+	width: 578px;
+}
+.kviz-button {
+	cursor: pointer;
+	margin-top: 24px;
+	background-color: #ed553b;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: Inter;
+	border: none;
+	padding: 12px 20px 12px 20px;
+	border-radius: 16px;
+}
+.footer {
+	display: flex;
+}
+.footer-logo {
+	width: 83px;
+}
+.footer-about {
+	color: #173f5f;
+	line-height: 34px;
+	letter-spacing: 2%;
+	font-size: 18px;
+}
+.main-description {
+	margin-top: -30px;
+	width: 900px;
+	margin-bottom: 50px;
+}
